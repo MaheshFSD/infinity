@@ -7,3 +7,10 @@ const io = require("socket.io")(server, {
 		methods: [ "GET", "POST" ]
 	}
 });
+app.use(cors());
+
+const PORT = process.env.PORT || 5000;
+
+app.get('/', (req, res) => {
+	res.send('Running');
+});
