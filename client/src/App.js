@@ -1,12 +1,14 @@
 import './App.css';
-import VideoDetails from './components/Room/VideoDetails';
-import VideoPlayer from './components/Room/VideoPlayer';
+// import VideoDetails from './components/Room/VideoDetails';
+// import VideoPlayer from './components/Room/VideoPlayer';
+import Routes from './Routes/Routes';
 
 function App() {
   return (
     <div className="App">
-      <VideoPlayer />
-      <VideoDetails />
+      <Routes />
+      {/* <VideoPlayer />
+      <VideoDetails /> */}
     </div>
   );
 }
