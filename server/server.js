@@ -1,8 +1,11 @@
 const express = require('express')
-const connect = require('./Config/db')
-const PORT = process.env.PORT || 2244
-
 const app = express()
+const connect = require('./src/Config/db')
+
+const server = require("http").createServer(app);
+
+const PORT = process.env.PORT || 5000
+
 app.use(express.json())
 
 
@@ -11,12 +14,12 @@ app.use(cors());
 
 
 
-const usersController = require('./Controllers/users.controller')
+const usersController = require('./src/Controllers/users.controller')
 
 app.use("/users", usersController)
 
 
-app.listen(PORT, async () => {
+server.listen(PORT, async () => {
     await connect()
     console.log(`Server started at ${PORT} Port`)
 })

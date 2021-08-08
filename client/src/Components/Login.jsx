@@ -28,7 +28,7 @@ function Login() {
 
         return axios({
             method: "post",
-            url: "http://localhost:2244/users/login",
+            url: "http://localhost:5000/users/login",
             data: data
         }).then((res) => {
             setData(res.data);

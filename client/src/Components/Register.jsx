@@ -30,7 +30,7 @@ function Register() {
 
         return axios({
             method: "post",
-            url: "http://localhost:2244/users/register",
+            url: "http://localhost:5000/users/register",
             data: data
         }).then((res) => {
             console.log(res);
