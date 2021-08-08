@@ -1,5 +1,4 @@
-<<<<<<< HEAD
 node_modules/
-=======
+
 node_module/
->>>>>>> 38e0b576339120a110bd6332feadbcb558b7570d
+/node_modules
