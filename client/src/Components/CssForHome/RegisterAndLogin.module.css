@@ -1,0 +1,47 @@
+.registerCont{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.registerForm{
+
+    width: 100%;
+
+}
+.registerForm input{
+
+    width: 40%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#registerBtn{
+    width: 25%;
+    font-size: 18px;
+    border: none;
+    background-color: #1AA84C;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#loginBtn{
+
+    width: 25%;
+    font-size: 18px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
